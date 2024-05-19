@@ -1,6 +1,6 @@
-# Gleam Monorepo Template
+# Gleam Monorepo Template - Lustre & Mist
+This is a template to be used for bootstrapping fresh Gleam monorepos, using Lustre for the frontend and Mist for the backend. Here's how the structure of this template looks: 
 
-This is an example of how a gleam monorepo could be structure. The project structure is as follows:
 ```
 ├── backend
 │   ├── build
