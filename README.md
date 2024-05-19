@@ -27,23 +27,22 @@ This is a template to be used for bootstrapping fresh Gleam monorepos, using Lus
 
 The backend is setup to be as minimal as possible. However it does include [radiant](https://github.com/pta2002/gleam-radiate) to allow for hmr on backend changes involving gleam files. Target is set to run on the erlang VM.
 
-### Requirements
-
-You'll need to have the erlang VM installed and rebar3 for the backend to work, as well as inotify-tools for hmr support.
-
 ## frontend
 
 The frontend is setup to use lustre as the frontend framework. This is setup with minimal configuration, fully customizable. Target is set to run on javascript.
-
-### Requirements
-
-You'll need to have node installed (preferrably v20+) for the frontend, as well as inotify-tools for hmr support.
 
 ## packages
 
 The packages folder should include code for modules that are not strictly part of either backend or frontend. Ideally code should be separated on it's own folders and then imported on whichever part of the codebase needs it.
 
 Each part of the project itself is setup with it's own README and more detailed instructions there.
+
+=====================================
+
+### Requirements
+
+You'll need to have the erlang VM installed and rebar3 for both the backend and frontend to work, as well as inotify-tools for hmr support.
+
 
 ## Running the monorepo
 
