@@ -1,7 +1,7 @@
 # Gleam Monorepo Template
 
 This is an example of how a gleam monorepo could be structure. The project structure is as follows:
-
+```
 ├── backend
 │   ├── gleam.toml
 │   ├── README.md
@@ -18,7 +18,7 @@ This is an example of how a gleam monorepo could be structure. The project struc
 │   ├── src
 │   └── test
 └── README.md
-
+```
 ## backend
 
 The backend is setup to be as minimal as possible. However it does include [radiant](https://github.com/pta2002/gleam-radiate) to allow for hmr on backend changes involving gleam files. Target is set to run on the erlang VM.
