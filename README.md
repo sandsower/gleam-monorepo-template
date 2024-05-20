@@ -48,7 +48,7 @@ You'll need to have the erlang VM installed and rebar3 for both the backend and 
 You can use the commands in the Makefile to run either the backend or the frontend with `make run-backend` or `make run-frontend` respectively. Support for concurrent runs of both is upcoming.
 
 **Looking for a leaner Gleam fullstack solution?** 
-Check out the [Gleam Nakai HTMX Template]([https://github.com/sandsower/gleam-monorepo-template](https://github.com/sandsower/htmx-nakai-template)! It's setup to use Wisp for the backend with all the frontend being served as HTMX-powered HTML directly 
+Check out the [Gleam Nakai HTMX Template](https://github.com/sandsower/htmx-nakai-template) ! It's setup to use Wisp for the backend with all the frontend being served as HTMX-powered HTML directly 
 
 ## TODO
 
